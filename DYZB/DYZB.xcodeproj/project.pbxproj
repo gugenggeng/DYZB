@@ -19,6 +19,10 @@
 		2E55FCF0200354CE004E2953 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55FCEF200354CE004E2953 /* FollowViewController.swift */; };
 		2E55FCF2200354DA004E2953 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55FCF1200354DA004E2953 /* ProfileViewController.swift */; };
 		2E55FCF4200354EC004E2953 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55FCF3200354EC004E2953 /* Tools.swift */; };
+		2E55FCF620036084004E2953 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E55FCF520036084004E2953 /* Home.storyboard */; };
+		2E55FCF9200360C5004E2953 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E55FCF7200360C5004E2953 /* Live.storyboard */; };
+		2E55FCFC200360F4004E2953 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E55FCFA200360F4004E2953 /* Follow.storyboard */; };
+		2E55FCFF20036113004E2953 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E55FCFD20036113004E2953 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		2E55FCEF200354CE004E2953 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
 		2E55FCF1200354DA004E2953 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2E55FCF3200354EC004E2953 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		2E55FCF520036084004E2953 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		2E55FCF8200360C5004E2953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		2E55FCFB200360F4004E2953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		2E55FCFE20036113004E2953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				2E55FCEB200354BB004E2953 /* HomeViewController.swift */,
+				2E55FCF520036084004E2953 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -167,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				2E55FCEF200354CE004E2953 /* FollowViewController.swift */,
+				2E55FCFA200360F4004E2953 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -175,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				2E55FCF1200354DA004E2953 /* ProfileViewController.swift */,
+				2E55FCFD20036113004E2953 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -183,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				2E55FCED200354C5004E2953 /* LiveViewController.swift */,
+				2E55FCF7200360C5004E2953 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -306,6 +318,10 @@
 				2E3BA8692003464B00CAF45D /* LaunchScreen.storyboard in Resources */,
 				2E3BA8662003464B00CAF45D /* Assets.xcassets in Resources */,
 				2E3BA8642003464B00CAF45D /* Main.storyboard in Resources */,
+				2E55FCF9200360C5004E2953 /* Live.storyboard in Resources */,
+				2E55FCF620036084004E2953 /* Home.storyboard in Resources */,
+				2E55FCFF20036113004E2953 /* Profile.storyboard in Resources */,
+				2E55FCFC200360F4004E2953 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +402,30 @@
 				2E3BA8682003464B00CAF45D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E55FCF7200360C5004E2953 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E55FCF8200360C5004E2953 /* Base */,
+			);
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+		2E55FCFA200360F4004E2953 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E55FCFB200360F4004E2953 /* Base */,
+			);
+			name = Follow.storyboard;
+			sourceTree = "<group>";
+		};
+		2E55FCFD20036113004E2953 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E55FCFE20036113004E2953 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
