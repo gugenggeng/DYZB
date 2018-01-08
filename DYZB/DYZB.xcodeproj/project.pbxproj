@@ -13,7 +13,6 @@
 		2E3BA8692003464B00CAF45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3BA8672003464B00CAF45D /* LaunchScreen.storyboard */; };
 		2E3BA8742003464B00CAF45D /* DYZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BA8732003464B00CAF45D /* DYZBTests.swift */; };
 		2E3BA87F2003464B00CAF45D /* DYZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BA87E2003464B00CAF45D /* DYZBUITests.swift */; };
-		2E55FCEA20034F1A004E2953 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55FCE920034F1A004E2953 /* MainViewController.swift */; };
 		2E55FCEC200354BB004E2953 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55FCEB200354BB004E2953 /* HomeViewController.swift */; };
 		2E55FCEE200354C5004E2953 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55FCED200354C5004E2953 /* LiveViewController.swift */; };
 		2E55FCF0200354CE004E2953 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55FCEF200354CE004E2953 /* FollowViewController.swift */; };
@@ -23,6 +22,7 @@
 		2E55FCF9200360C5004E2953 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E55FCF7200360C5004E2953 /* Live.storyboard */; };
 		2E55FCFC200360F4004E2953 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E55FCFA200360F4004E2953 /* Follow.storyboard */; };
 		2E55FCFF20036113004E2953 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E55FCFD20036113004E2953 /* Profile.storyboard */; };
+		2E55FD012003688A004E2953 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E55FD002003688A004E2953 /* MainTabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		2E3BA87A2003464B00CAF45D /* DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3BA87E2003464B00CAF45D /* DYZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBUITests.swift; sourceTree = "<group>"; };
 		2E3BA8802003464B00CAF45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E55FCE920034F1A004E2953 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2E55FCEB200354BB004E2953 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2E55FCED200354C5004E2953 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		2E55FCEF200354CE004E2953 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		2E55FCF8200360C5004E2953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Live.storyboard; sourceTree = "<group>"; };
 		2E55FCFB200360F4004E2953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
 		2E55FCFE20036113004E2953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		2E55FD002003688A004E2953 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,8 +202,8 @@
 		2E55FCE820034E42004E2953 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				2E55FCE920034F1A004E2953 /* MainViewController.swift */,
 				2E3BA8622003464B00CAF45D /* Main.storyboard */,
+				2E55FD002003688A004E2953 /* MainTabbarController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -348,10 +348,10 @@
 			files = (
 				2E55FCF2200354DA004E2953 /* ProfileViewController.swift in Sources */,
 				2E3BA85F2003464B00CAF45D /* AppDelegate.swift in Sources */,
-				2E55FCEA20034F1A004E2953 /* MainViewController.swift in Sources */,
 				2E55FCF0200354CE004E2953 /* FollowViewController.swift in Sources */,
 				2E55FCF4200354EC004E2953 /* Tools.swift in Sources */,
 				2E55FCEE200354C5004E2953 /* LiveViewController.swift in Sources */,
+				2E55FD012003688A004E2953 /* MainTabbarController.swift in Sources */,
 				2E55FCEC200354BB004E2953 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
